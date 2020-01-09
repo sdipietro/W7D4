@@ -1,0 +1,28 @@
+<% langs = ["CSS", "HTML", "Javascript", "Ruby"]  %>
+<header class="masthead">
+  <nav class="language-nav" >
+    <ul>
+    <% langs.each do |lang| %>
+      <li><a><%= lang %></a></li>  
+    <% end %>  
+    </ul>
+  </nav>
+  <img class="logo" src="assets/AA_Times_Logo.png" alt="App Academy Times">
+  <ul class="masthead-links">
+    <li><time>Tuesday, October 18, 2016</time></li>
+    <li>
+        <a href="">
+          <i class="far fa-newspaper"></i>
+          <span>Today’s Paper</span>
+        </a>
+    </li>
+    <li>
+      <a href="">
+        <i class="fas fa-video"></i>
+        <span>Video</span>
+      </a>
+    </li>
+    <li><button>77°F</button></li>
+    <li><button>AAO <strong>+100%</strong></button></li>
+  </ul>
+</header>

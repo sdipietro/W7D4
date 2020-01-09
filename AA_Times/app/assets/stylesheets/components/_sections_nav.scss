@@ -1,0 +1,38 @@
+.sections {
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav {
+  align-items: center;
+}
+
+.sections-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sections-nav a {
+  display: block;
+  margin: 10px;
+  font-family: $sans-serif;
+  transition: 1s;
+}
+
+.sections-nav a:hover {
+  text-decoration: none;
+  background-color: $light-gray;
+}
+
+.sections-nav li:last-of-type:hover {
+  text-decoration: underline;
+}
+
+.sections-nav li:last-of-type {
+  font-size: 10px;
+  align-items: flex-end;
+  padding-top: 2px;
+}
+
+.sections-nav li:last-of-type:hover a {
+  background-color: transparent;
+}
