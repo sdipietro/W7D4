@@ -12071,3 +12071,1732 @@ Completed 200 OK in 62ms (Views: 48.4ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.self-27a492e9dc502a77faf4f946350710556102b9a79fccab2f8ada34e9fc63fb41.css?body=1" for 127.0.0.1 at 2020-01-09 18:00:35 -0500
 Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-09 18:00:35 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:24:57 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Library/Ruby/Gems/2.6.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (20.7ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (3.2ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (2.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (147.8ms)
+Completed 200 OK in 1009ms (Views: 1000.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2020-01-10 11:24:59 -0500
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2020-01-10 11:24:59 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:24:59 -0500
+Started GET "/" for ::1 at 2020-01-10 11:25:24 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.6ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 779ms (Views: 777.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1" for ::1 at 2020-01-10 11:25:25 -0500
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2020-01-10 11:25:25 -0500
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2020-01-10 11:25:25 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:25:26 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673529985" for ::1 at 2020-01-10 11:25:29 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673529988" for ::1 at 2020-01-10 11:25:29 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673532840" for ::1 at 2020-01-10 11:25:32 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673532841" for ::1 at 2020-01-10 11:25:32 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673536579" for ::1 at 2020-01-10 11:25:36 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673536580" for ::1 at 2020-01-10 11:25:36 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673539613" for ::1 at 2020-01-10 11:25:39 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673539615" for ::1 at 2020-01-10 11:25:39 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673554586" for ::1 at 2020-01-10 11:25:54 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673554584" for ::1 at 2020-01-10 11:25:54 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673561877" for ::1 at 2020-01-10 11:26:01 -0500
+Started GET "/assets/application.self-a465e83c1cfb1663216d556fec254344f498a330e0319e2eab580569980ed84a.css?body=1&livereload=1578673561879" for ::1 at 2020-01-10 11:26:01 -0500
+Started GET "/" for ::1 at 2020-01-10 11:26:04 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (8.9ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 75ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:26:04 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1" for ::1 at 2020-01-10 11:26:04 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:26:04 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.4ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 107ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1" for 127.0.0.1 at 2020-01-10 11:26:05 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:26:05 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673571241" for ::1 at 2020-01-10 11:26:11 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673571243" for ::1 at 2020-01-10 11:26:11 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673574115" for ::1 at 2020-01-10 11:26:14 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673574119" for ::1 at 2020-01-10 11:26:14 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:26:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (3.7ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-695c0af094c8e9357a1bc4dce19b39b37db7ea3eab55ea6bd500016442d244a4.css?body=1" for 127.0.0.1 at 2020-01-10 11:26:14 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:26:14 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:26:15 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.4ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 48ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:26:15 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673580883" for ::1 at 2020-01-10 11:26:20 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673580884" for ::1 at 2020-01-10 11:26:20 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673614551" for ::1 at 2020-01-10 11:26:54 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673614553" for ::1 at 2020-01-10 11:26:54 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673618282" for ::1 at 2020-01-10 11:26:58 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673618284" for ::1 at 2020-01-10 11:26:58 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673619319" for ::1 at 2020-01-10 11:26:59 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673619322" for ::1 at 2020-01-10 11:26:59 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673622598" for ::1 at 2020-01-10 11:27:02 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673622593" for ::1 at 2020-01-10 11:27:02 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673623539" for ::1 at 2020-01-10 11:27:03 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673623538" for ::1 at 2020-01-10 11:27:03 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673628095" for ::1 at 2020-01-10 11:27:08 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673628096" for ::1 at 2020-01-10 11:27:08 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673631457" for ::1 at 2020-01-10 11:27:11 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673631456" for ::1 at 2020-01-10 11:27:11 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673633339" for ::1 at 2020-01-10 11:27:13 -0500
+Started GET "/assets/application.self-ada83bff1771f89672ebc1cfd363c223ea3a8b435acdf8dbd175b2dfe6b501fb.css?body=1&livereload=1578673633340" for ::1 at 2020-01-10 11:27:13 -0500
+Started GET "/" for ::1 at 2020-01-10 11:27:15 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.5ms)
+  Rendered shared/_main_nav.html.erb (4.3ms)
+  Rendered shared/_masthead.html.erb (1.2ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (2.0ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 91ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:27:15 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1" for ::1 at 2020-01-10 11:27:15 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:27:16 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (1.7ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:27:17 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1" for 127.0.0.1 at 2020-01-10 11:27:17 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673645216" for ::1 at 2020-01-10 11:27:25 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673645210" for ::1 at 2020-01-10 11:27:25 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:27:26 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.5ms)
+  Rendered shared/_main_nav.html.erb (6.9ms)
+  Rendered shared/_masthead.html.erb (2.4ms)
+  Rendered shared/_sections_nav.html.erb (2.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 144ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:27:26 -0500
+Started GET "/assets/application.self-57fceb62287b0824c4bf191b726fd3f5ed1e0562486a17f2585a111ed8708799.css?body=1" for 127.0.0.1 at 2020-01-10 11:27:26 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673654034" for ::1 at 2020-01-10 11:27:34 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673654036" for ::1 at 2020-01-10 11:27:34 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673656349" for ::1 at 2020-01-10 11:27:36 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673656351" for ::1 at 2020-01-10 11:27:36 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673661030" for ::1 at 2020-01-10 11:27:41 -0500
+Started GET "/assets/application.self-da47716aae6ff7e86a743350fc518661014e2a39f528d3cf9aee04cf91040a5b.css?body=1&livereload=1578673661032" for ::1 at 2020-01-10 11:27:41 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:27:42 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (3.5ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 107ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1" for 127.0.0.1 at 2020-01-10 11:27:42 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:27:42 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:27:45 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.7ms)
+  Rendered shared/_masthead.html.erb (1.8ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:27:45 -0500
+Started GET "/" for ::1 at 2020-01-10 11:27:48 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1" for ::1 at 2020-01-10 11:27:48 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:27:48 -0500
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1&livereload=1578673670418" for ::1 at 2020-01-10 11:27:50 -0500
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1&livereload=1578673670423" for ::1 at 2020-01-10 11:27:50 -0500
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1&livereload=1578673673910" for ::1 at 2020-01-10 11:27:53 -0500
+Started GET "/assets/application.self-fbe1e601ad4198b6ca31ee97b38aef2c44e6088181ba0d2222afcb67e99d417a.css?body=1&livereload=1578673673912" for ::1 at 2020-01-10 11:27:53 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:27:55 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  height": expected ";", was ": 20px":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___711386302380246710_70344600941140'
+
+Started POST "/__better_errors/5802838c71b601a9/variables" for 127.0.0.1 at 2020-01-10 11:27:55 -0500
+Started GET "/" for ::1 at 2020-01-10 11:27:55 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  height": expected ";", was ": 20px":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___711386302380246710_70344632157540'
+
+Started POST "/__better_errors/e3e6dcb4c20bbcd1/variables" for ::1 at 2020-01-10 11:27:56 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:02 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.5ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (1.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 468ms (Views: 466.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1" for 127.0.0.1 at 2020-01-10 11:28:03 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:03 -0500
+Started GET "/" for ::1 at 2020-01-10 11:28:03 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (2.5ms)
+  Rendered shared/_main_nav.html.erb (9.4ms)
+  Rendered shared/_masthead.html.erb (2.9ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 134ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1" for ::1 at 2020-01-10 11:28:04 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:28:04 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:06 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:06 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:07 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.8ms)
+  Rendered shared/_main_nav.html.erb (8.5ms)
+  Rendered shared/_masthead.html.erb (1.3ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:07 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673697644" for ::1 at 2020-01-10 11:28:17 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673697641" for ::1 at 2020-01-10 11:28:17 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673701176" for ::1 at 2020-01-10 11:28:21 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673701177" for ::1 at 2020-01-10 11:28:21 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:22 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.0ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (1.6ms)
+  Rendered shared/_search_modal.html.erb (1.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 120ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dec32fb01218f5069e76e9a732a09983be0dc8c201c5f8bf04753a523693aa0d.css?body=1" for 127.0.0.1 at 2020-01-10 11:28:22 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:22 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673719297" for ::1 at 2020-01-10 11:28:39 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673719298" for ::1 at 2020-01-10 11:28:39 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673722570" for ::1 at 2020-01-10 11:28:42 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673722568" for ::1 at 2020-01-10 11:28:42 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673725253" for ::1 at 2020-01-10 11:28:45 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673725254" for ::1 at 2020-01-10 11:28:45 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:45 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.4ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 314ms (Views: 308.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ea2ad4501c83b8d5f94624a24f0f259fffa10ad14a597e0199530904711113ef.css?body=1" for 127.0.0.1 at 2020-01-10 11:28:46 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:46 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673732938" for ::1 at 2020-01-10 11:28:52 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673732939" for ::1 at 2020-01-10 11:28:52 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:28:53 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.4ms)
+  Rendered shared/_masthead.html.erb (1.4ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 253ms (Views: 252.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-341290801d0699b904e92582ddc59362e764a2314a61442059734acdbdcf2eff.css?body=1" for 127.0.0.1 at 2020-01-10 11:28:53 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:28:53 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673741475" for ::1 at 2020-01-10 11:29:01 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673741479" for ::1 at 2020-01-10 11:29:01 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:29:02 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.4ms)
+  Rendered shared/_main_nav.html.erb (7.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.9ms)
+  Rendered shared/_main_content.html.erb (0.7ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 112ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7053754632695725bb02c868ccc7997a2467e00767194eeaf66fe66707fcbbbb.css?body=1" for 127.0.0.1 at 2020-01-10 11:29:02 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:29:02 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673749926" for ::1 at 2020-01-10 11:29:09 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673749925" for ::1 at 2020-01-10 11:29:09 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:29:11 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.8ms)
+  Rendered shared/_main_nav.html.erb (6.2ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 89ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-addafcdc2767c1ef30eba6f61286fcab0e3d4812154180d139a863667374a3c0.css?body=1" for 127.0.0.1 at 2020-01-10 11:29:11 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:29:11 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673757165" for ::1 at 2020-01-10 11:29:17 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673757166" for ::1 at 2020-01-10 11:29:17 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673760036" for ::1 at 2020-01-10 11:29:20 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673760038" for ::1 at 2020-01-10 11:29:20 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673760987" for ::1 at 2020-01-10 11:29:20 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673760988" for ::1 at 2020-01-10 11:29:21 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:29:21 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.7ms)
+  Rendered shared/_masthead.html.erb (1.5ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 214ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:29:22 -0500
+Started GET "/assets/application.self-5d93a49c60d3b1e5f39761ccf75225173c44f5277f39182ecf942d1442ec413d.css?body=1" for 127.0.0.1 at 2020-01-10 11:29:22 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673773602" for ::1 at 2020-01-10 11:29:33 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673773603" for ::1 at 2020-01-10 11:29:33 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673774347" for ::1 at 2020-01-10 11:29:34 -0500
+Started GET "/assets/application.self-fe67c9335f4c62366646fe7862982158500703986474b3535239e95088dd5a38.css?body=1&livereload=1578673774348" for ::1 at 2020-01-10 11:29:34 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:29:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.2ms)
+  Rendered shared/_masthead.html.erb (1.5ms)
+  Rendered shared/_sections_nav.html.erb (2.0ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:29:35 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1" for 127.0.0.1 at 2020-01-10 11:29:35 -0500
+Started GET "/" for ::1 at 2020-01-10 11:29:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.8ms)
+  Rendered shared/_main_nav.html.erb (3.7ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 51ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1" for ::1 at 2020-01-10 11:29:40 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:29:40 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673783233" for ::1 at 2020-01-10 11:29:43 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673783235" for ::1 at 2020-01-10 11:29:43 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673784841" for ::1 at 2020-01-10 11:29:44 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673784845" for ::1 at 2020-01-10 11:29:44 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673785874" for ::1 at 2020-01-10 11:29:45 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673785893" for ::1 at 2020-01-10 11:29:45 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673788599" for ::1 at 2020-01-10 11:29:48 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673788600" for ::1 at 2020-01-10 11:29:48 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:29:48 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 139ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:29:49 -0500
+Started GET "/assets/application.self-4be2af8d88a27aef6701188c3afffa0b2be0e2ab7c7e319cfa1169d4dd75f044.css?body=1" for 127.0.0.1 at 2020-01-10 11:29:49 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673818595" for ::1 at 2020-01-10 11:30:18 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673818596" for ::1 at 2020-01-10 11:30:18 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673820648" for ::1 at 2020-01-10 11:30:20 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673820647" for ::1 at 2020-01-10 11:30:20 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:30:21 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (5.4ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (20.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 223ms (Views: 221.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:30:22 -0500
+Started GET "/assets/application.self-01aaba6f54499eda1814a2a6ec8df054d0528d2cb2ea9315095627d837d41826.css?body=1" for 127.0.0.1 at 2020-01-10 11:30:22 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673827139" for ::1 at 2020-01-10 11:30:27 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673827141" for ::1 at 2020-01-10 11:30:27 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:30:28 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (4.0ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (7.2ms)
+  Rendered shared/_search_modal.html.erb (2.4ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 165ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7da4892edc630585e14353bae3e34e411b64cd9c2329ec44aa5ef94790f8719f.css?body=1" for 127.0.0.1 at 2020-01-10 11:30:28 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:30:28 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673832783" for ::1 at 2020-01-10 11:30:32 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673832784" for ::1 at 2020-01-10 11:30:32 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:30:33 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (11.0ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (3.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 169ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ecdb4f571c51722919e08acbd959853c8f5f7b90405130f0a4ee32d001fa377a.css?body=1" for 127.0.0.1 at 2020-01-10 11:30:34 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:30:34 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673842674" for ::1 at 2020-01-10 11:30:42 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673842675" for ::1 at 2020-01-10 11:30:42 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:30:43 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (6.4ms)
+  Rendered shared/_masthead.html.erb (1.3ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:30:44 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673860965" for ::1 at 2020-01-10 11:31:00 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673860967" for ::1 at 2020-01-10 11:31:00 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673864482" for ::1 at 2020-01-10 11:31:04 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673864488" for ::1 at 2020-01-10 11:31:04 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673867561" for ::1 at 2020-01-10 11:31:07 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673867562" for ::1 at 2020-01-10 11:31:07 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673871479" for ::1 at 2020-01-10 11:31:11 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673871477" for ::1 at 2020-01-10 11:31:11 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673873532" for ::1 at 2020-01-10 11:31:13 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673873534" for ::1 at 2020-01-10 11:31:13 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:31:15 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (3.9ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (2.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (1.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 98ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c4e6a400c14d39de3ffb99053a54f6d83d4dd507ff5d3bdc252a8726bef09a92.css?body=1" for 127.0.0.1 at 2020-01-10 11:31:15 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:31:15 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:31:17 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (4.1ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (1.2ms)
+  Rendered shared/_main_content.html.erb (2.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:31:18 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673882688" for ::1 at 2020-01-10 11:31:22 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673882689" for ::1 at 2020-01-10 11:31:22 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673888080" for ::1 at 2020-01-10 11:31:28 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673888079" for ::1 at 2020-01-10 11:31:28 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673890893" for ::1 at 2020-01-10 11:31:30 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673890891" for ::1 at 2020-01-10 11:31:30 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673892196" for ::1 at 2020-01-10 11:31:32 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673892198" for ::1 at 2020-01-10 11:31:32 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:31:33 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (2.4ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (6.8ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 101ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dd8d4bb491f379f6cda1e80acba032fdaf6234ca6bf1ae76a8d973eb367b8448.css?body=1" for 127.0.0.1 at 2020-01-10 11:31:33 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:31:33 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673897201" for ::1 at 2020-01-10 11:31:37 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673897202" for ::1 at 2020-01-10 11:31:37 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673899625" for ::1 at 2020-01-10 11:31:39 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673899626" for ::1 at 2020-01-10 11:31:39 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673903457" for ::1 at 2020-01-10 11:31:43 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673903458" for ::1 at 2020-01-10 11:31:43 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:31:44 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.9ms)
+  Rendered shared/_masthead.html.erb (1.3ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:31:44 -0500
+Started GET "/assets/application.self-80e56a0c274bf14e6f19df313b421d64cb80482121749226a34263633ffbc5d1.css?body=1" for 127.0.0.1 at 2020-01-10 11:31:44 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673912104" for ::1 at 2020-01-10 11:31:52 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673912111" for ::1 at 2020-01-10 11:31:52 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673912974" for ::1 at 2020-01-10 11:31:52 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673912975" for ::1 at 2020-01-10 11:31:52 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:31:54 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.0ms)
+  Rendered shared/_main_nav.html.erb (4.0ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (1.2ms)
+  Rendered shared/_search_modal.html.erb (1.4ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4b18c4540b4b29381b1c70cb5c1fe9b333a7cbbf866884ce13d3687cda62d0ee.css?body=1" for 127.0.0.1 at 2020-01-10 11:31:54 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:31:54 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:32:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (5.6ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.8ms)
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673930340" for ::1 at 2020-01-10 11:32:10 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673930341" for ::1 at 2020-01-10 11:32:10 -0500
+Completed 200 OK in 545ms (Views: 542.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aedb25a0d4eb81252b596dc5c85ae7cb770b5afb4cfdec904143f3cbb17d87db.css?body=1" for 127.0.0.1 at 2020-01-10 11:32:10 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:32:10 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673940196" for ::1 at 2020-01-10 11:32:20 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673940198" for ::1 at 2020-01-10 11:32:20 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673941416" for ::1 at 2020-01-10 11:32:21 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578673941415" for ::1 at 2020-01-10 11:32:21 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:33:22 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (4.9ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:33:23 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674153943" for ::1 at 2020-01-10 11:35:53 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674153944" for ::1 at 2020-01-10 11:35:53 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674155722" for ::1 at 2020-01-10 11:35:55 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674155723" for ::1 at 2020-01-10 11:35:55 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674157518" for ::1 at 2020-01-10 11:35:57 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674157515" for ::1 at 2020-01-10 11:35:57 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674159184" for ::1 at 2020-01-10 11:35:59 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674159185" for ::1 at 2020-01-10 11:35:59 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674162720" for ::1 at 2020-01-10 11:36:02 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674162721" for ::1 at 2020-01-10 11:36:02 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674175372" for ::1 at 2020-01-10 11:36:15 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674175371" for ::1 at 2020-01-10 11:36:15 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674177357" for ::1 at 2020-01-10 11:36:17 -0500
+Started GET "/assets/application.self-defd9c2003a9414dc4f59aa38bc73a9ca55bd51cae3902ff38929eef85932d50.css?body=1&livereload=1578674177358" for ::1 at 2020-01-10 11:36:17 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:36:18 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (3.4ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (10.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 1097ms (Views: 1093.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:36:19 -0500
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1" for 127.0.0.1 at 2020-01-10 11:36:19 -0500
+Started GET "/" for ::1 at 2020-01-10 11:36:19 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.5ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (1.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1" for ::1 at 2020-01-10 11:36:20 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:36:20 -0500
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1&livereload=1578674328278" for ::1 at 2020-01-10 11:38:48 -0500
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1&livereload=1578674328280" for ::1 at 2020-01-10 11:38:48 -0500
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1&livereload=1578674333571" for ::1 at 2020-01-10 11:38:53 -0500
+Started GET "/assets/application.self-7b1f8fab16d558901da36411f6e9d932faff62ee01325f1ae32981af01bf1fb8.css?body=1&livereload=1578674333578" for ::1 at 2020-01-10 11:38:53 -0500
+Started GET "/" for ::1 at 2020-01-10 11:38:56 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (2.9ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 392ms (Views: 390.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1" for ::1 at 2020-01-10 11:38:57 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:38:57 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674365627" for ::1 at 2020-01-10 11:39:25 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674365628" for ::1 at 2020-01-10 11:39:25 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674367488" for ::1 at 2020-01-10 11:39:27 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674367486" for ::1 at 2020-01-10 11:39:27 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674370184" for ::1 at 2020-01-10 11:39:30 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674370186" for ::1 at 2020-01-10 11:39:30 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674383780" for ::1 at 2020-01-10 11:39:43 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674383779" for ::1 at 2020-01-10 11:39:43 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674388798" for ::1 at 2020-01-10 11:39:48 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674388797" for ::1 at 2020-01-10 11:39:48 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674391046" for ::1 at 2020-01-10 11:39:51 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674391048" for ::1 at 2020-01-10 11:39:51 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674395039" for ::1 at 2020-01-10 11:39:55 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674395037" for ::1 at 2020-01-10 11:39:55 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674398583" for ::1 at 2020-01-10 11:39:58 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674398584" for ::1 at 2020-01-10 11:39:58 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674401751" for ::1 at 2020-01-10 11:40:01 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674401753" for ::1 at 2020-01-10 11:40:01 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674402324" for ::1 at 2020-01-10 11:40:02 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674402328" for ::1 at 2020-01-10 11:40:02 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674405124" for ::1 at 2020-01-10 11:40:05 -0500
+Started GET "/assets/application.self-af6382e7d8291f9dcd63d5034fd94c5aab380ff826893303d1d48fd6aa28f091.css?body=1&livereload=1578674405122" for ::1 at 2020-01-10 11:40:05 -0500
+Started GET "/" for ::1 at 2020-01-10 11:40:08 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (2.7ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (2.0ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1" for ::1 at 2020-01-10 11:40:08 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:40:08 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:40:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:40:10 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1" for 127.0.0.1 at 2020-01-10 11:40:10 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:40:16 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (3.9ms)
+  Rendered shared/_masthead.html.erb (6.0ms)
+  Rendered shared/_sections_nav.html.erb (1.3ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:40:16 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674454418" for ::1 at 2020-01-10 11:40:54 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674454420" for ::1 at 2020-01-10 11:40:54 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674457130" for ::1 at 2020-01-10 11:40:57 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674457131" for ::1 at 2020-01-10 11:40:57 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674461718" for ::1 at 2020-01-10 11:41:01 -0500
+Started GET "/assets/application.self-5922305e659f739e739c1953eaf872ee68e507bc2ff7a4d87dd2044575965af1.css?body=1&livereload=1578674461721" for ::1 at 2020-01-10 11:41:01 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:41:03 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1" for 127.0.0.1 at 2020-01-10 11:41:03 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:41:03 -0500
+Started GET "/" for ::1 at 2020-01-10 11:41:03 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (2.8ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 102ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1" for ::1 at 2020-01-10 11:41:04 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:41:04 -0500
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1&livereload=1578674477086" for ::1 at 2020-01-10 11:41:17 -0500
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1&livereload=1578674477089" for ::1 at 2020-01-10 11:41:17 -0500
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1&livereload=1578674481007" for ::1 at 2020-01-10 11:41:21 -0500
+Started GET "/assets/application.self-c5c1c39e3929d9a83aa2a6a4f508608c2c0212f3e8318360a5b8968791aca34e.css?body=1&livereload=1578674481014" for ::1 at 2020-01-10 11:41:21 -0500
+Started GET "/" for ::1 at 2020-01-10 11:41:22 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (3.5ms)
+  Rendered shared/_sections_nav.html.erb (1.3ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (1.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1" for ::1 at 2020-01-10 11:41:22 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:41:22 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:41:23 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (3.1ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (1.0ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:41:23 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1" for 127.0.0.1 at 2020-01-10 11:41:23 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674505535" for ::1 at 2020-01-10 11:41:45 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674505537" for ::1 at 2020-01-10 11:41:45 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674511673" for ::1 at 2020-01-10 11:41:51 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674511672" for ::1 at 2020-01-10 11:41:51 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674513725" for ::1 at 2020-01-10 11:41:53 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674513724" for ::1 at 2020-01-10 11:41:53 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674515902" for ::1 at 2020-01-10 11:41:55 -0500
+Started GET "/assets/application.self-20407fa582b2c98b51d068333fe3bf672d12b6df513551ff91ecfa7ef6ad2247.css?body=1&livereload=1578674515903" for ::1 at 2020-01-10 11:41:55 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:41:57 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (8.7ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 124ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-10 11:41:58 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.9ms)
+  Rendered shared/_main_nav.html.erb (4.3ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (4.5ms)
+  Rendered shared/_search_modal.html.erb (1.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 110ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:41:58 -0500
+Started GET "/assets/application.self-066dc13ed26e302b3f76d9c690ae48eeeae90e384fb1602cd2148a2788095dc4.css?body=1" for 127.0.0.1 at 2020-01-10 11:41:58 -0500
+Started GET "/assets/application.self-066dc13ed26e302b3f76d9c690ae48eeeae90e384fb1602cd2148a2788095dc4.css?body=1" for ::1 at 2020-01-10 11:41:58 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:41:58 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:42:04 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:42:05 -0500
+Started GET "/assets/application.self-066dc13ed26e302b3f76d9c690ae48eeeae90e384fb1602cd2148a2788095dc4.css?body=1&livereload=1578674530228" for ::1 at 2020-01-10 11:42:10 -0500
+Started GET "/assets/application.self-066dc13ed26e302b3f76d9c690ae48eeeae90e384fb1602cd2148a2788095dc4.css?body=1&livereload=1578674530241" for ::1 at 2020-01-10 11:42:10 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:42:11 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (1.9ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 95ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1" for 127.0.0.1 at 2020-01-10 11:42:12 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:42:12 -0500
+Started GET "/" for ::1 at 2020-01-10 11:42:12 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.1ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (1.9ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1" for ::1 at 2020-01-10 11:42:13 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:42:13 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674574044" for ::1 at 2020-01-10 11:42:54 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674574042" for ::1 at 2020-01-10 11:42:54 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674586339" for ::1 at 2020-01-10 11:43:06 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674586341" for ::1 at 2020-01-10 11:43:06 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674590809" for ::1 at 2020-01-10 11:43:10 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674590810" for ::1 at 2020-01-10 11:43:10 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:43:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (1.9ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (1.3ms)
+  Rendered shared/_main_content.html.erb (1.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  padding": expected "{", was "}":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___711386302380246710_70344631635060'
+
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674595843" for ::1 at 2020-01-10 11:43:15 -0500
+Started GET "/assets/application.self-3a7ece3a83d02464ebfb9f5606631bcb1284f0ec8e63454fe56658891721185b.css?body=1&livereload=1578674595844" for ::1 at 2020-01-10 11:43:15 -0500
+Started POST "/__better_errors/48810b36aeb7b55a/variables" for 127.0.0.1 at 2020-01-10 11:43:16 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:43:18 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.4ms)
+  Rendered shared/_main_nav.html.erb (3.4ms)
+  Rendered shared/_masthead.html.erb (4.2ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 153ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1" for 127.0.0.1 at 2020-01-10 11:43:18 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:43:18 -0500
+Started GET "/" for ::1 at 2020-01-10 11:43:18 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.6ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1" for ::1 at 2020-01-10 11:43:19 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:43:19 -0500
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1&livereload=1578674614023" for ::1 at 2020-01-10 11:43:34 -0500
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1&livereload=1578674614024" for ::1 at 2020-01-10 11:43:34 -0500
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1&livereload=1578674617405" for ::1 at 2020-01-10 11:43:37 -0500
+Started GET "/assets/application.self-e3e44f5f48a52acd6f4b5a2c5d281573fe90d5751cbd70b00c4fa91251d17a2b.css?body=1&livereload=1578674617406" for ::1 at 2020-01-10 11:43:37 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:43:37 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (3.0ms)
+  Rendered shared/_main_nav.html.erb (6.3ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 242ms (Views: 241.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:43:38 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1" for 127.0.0.1 at 2020-01-10 11:43:38 -0500
+Started GET "/" for ::1 at 2020-01-10 11:43:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.0ms)
+  Rendered shared/_main_nav.html.erb (4.7ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (1.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1" for ::1 at 2020-01-10 11:43:40 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:43:40 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674646751" for ::1 at 2020-01-10 11:44:06 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674646758" for ::1 at 2020-01-10 11:44:06 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674648535" for ::1 at 2020-01-10 11:44:08 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674648537" for ::1 at 2020-01-10 11:44:08 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674650233" for ::1 at 2020-01-10 11:44:10 -0500
+Started GET "/assets/application.self-7fd04ad61433665644b1409af29d352a523c17c07d33ed26ef065e2a5d00fe14.css?body=1&livereload=1578674650231" for ::1 at 2020-01-10 11:44:10 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:44:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (2.0ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 957ms (Views: 954.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-754c643218b562f1ca61c381a8d69b69a86984e3f48ac04a7e63b957a8da70fa.css?body=1" for 127.0.0.1 at 2020-01-10 11:44:12 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:44:12 -0500
+Started GET "/" for ::1 at 2020-01-10 11:44:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (6.1ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-754c643218b562f1ca61c381a8d69b69a86984e3f48ac04a7e63b957a8da70fa.css?body=1" for ::1 at 2020-01-10 11:44:14 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:44:14 -0500
+Started GET "/assets/application.self-754c643218b562f1ca61c381a8d69b69a86984e3f48ac04a7e63b957a8da70fa.css?body=1&livereload=1578674698853" for ::1 at 2020-01-10 11:44:58 -0500
+Started GET "/assets/application.self-754c643218b562f1ca61c381a8d69b69a86984e3f48ac04a7e63b957a8da70fa.css?body=1&livereload=1578674698856" for ::1 at 2020-01-10 11:44:58 -0500
+Started GET "/" for ::1 at 2020-01-10 11:45:00 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.8ms)
+  Rendered shared/_main_nav.html.erb (7.5ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.1ms)
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:45:00 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (20.6ms)
+  Rendered shared/_masthead.html.erb (1.2ms)
+  Rendered shared/_sections_nav.html.erb (1.2ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 392ms (Views: 385.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 305ms (Views: 303.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1" for ::1 at 2020-01-10 11:45:00 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:45:00 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1" for 127.0.0.1 at 2020-01-10 11:45:01 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:45:01 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:45:05 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (3.5ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (3.1ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 199ms (Views: 195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:45:05 -0500
+Started GET "/" for ::1 at 2020-01-10 11:45:08 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.1ms)
+  Rendered shared/_main_nav.html.erb (2.8ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.7ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:45:08 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674734119" for ::1 at 2020-01-10 11:45:34 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674734121" for ::1 at 2020-01-10 11:45:34 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674736826" for ::1 at 2020-01-10 11:45:36 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674736827" for ::1 at 2020-01-10 11:45:36 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674739644" for ::1 at 2020-01-10 11:45:39 -0500
+Started GET "/assets/application.self-192d11218362f285958de7e80ebcabe2e734e088cef585c379e30ed7ee456aa1.css?body=1&livereload=1578674739645" for ::1 at 2020-01-10 11:45:39 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:45:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.9ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 721ms (Views: 711.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-10 11:45:41 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.2ms)
+  Rendered shared/_main_nav.html.erb (3.5ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bf355395b9b1e7fd954995a62bccf6b87c358143c0b623545dcb9749dbbb3179.css?body=1" for ::1 at 2020-01-10 11:45:41 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:45:41 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:45:41 -0500
+Started GET "/assets/application.self-bf355395b9b1e7fd954995a62bccf6b87c358143c0b623545dcb9749dbbb3179.css?body=1" for 127.0.0.1 at 2020-01-10 11:45:41 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:45:45 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.6ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:45:46 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:46:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.7ms)
+  Rendered shared/_masthead.html.erb (4.2ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bf355395b9b1e7fd954995a62bccf6b87c358143c0b623545dcb9749dbbb3179.css?body=1&livereload=1578674771102" for ::1 at 2020-01-10 11:46:11 -0500
+Started GET "/assets/application.self-bf355395b9b1e7fd954995a62bccf6b87c358143c0b623545dcb9749dbbb3179.css?body=1&livereload=1578674771104" for ::1 at 2020-01-10 11:46:11 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:46:11 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:46:12 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d45aa78422e9e53e2e9edcd04dcd8f1a92edde18d5a0ffd5c8b97ff08df8b78.css?body=1" for 127.0.0.1 at 2020-01-10 11:46:13 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:46:13 -0500
+Started GET "/" for ::1 at 2020-01-10 11:46:13 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.8ms)
+  Rendered shared/_main_nav.html.erb (3.0ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 76ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d45aa78422e9e53e2e9edcd04dcd8f1a92edde18d5a0ffd5c8b97ff08df8b78.css?body=1" for ::1 at 2020-01-10 11:46:13 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:46:13 -0500
+Started GET "/assets/application.self-9d45aa78422e9e53e2e9edcd04dcd8f1a92edde18d5a0ffd5c8b97ff08df8b78.css?body=1&livereload=1578674788303" for ::1 at 2020-01-10 11:46:28 -0500
+Started GET "/assets/application.self-9d45aa78422e9e53e2e9edcd04dcd8f1a92edde18d5a0ffd5c8b97ff08df8b78.css?body=1&livereload=1578674788306" for ::1 at 2020-01-10 11:46:28 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:46:30 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (4.4ms)
+  Rendered shared/_main_nav.html.erb (6.6ms)
+  Rendered shared/_masthead.html.erb (6.1ms)
+  Rendered shared/_sections_nav.html.erb (7.6ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (33.8ms)
+Started GET "/" for ::1 at 2020-01-10 11:46:30 -0500
+Completed 200 OK in 109ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (4.6ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (1.7ms)
+  Rendered shared/_search_modal.html.erb (3.5ms)
+  Rendered shared/_main_content.html.erb (0.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 84ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1" for ::1 at 2020-01-10 11:46:30 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:46:30 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1" for 127.0.0.1 at 2020-01-10 11:46:30 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:46:30 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674809732" for ::1 at 2020-01-10 11:46:49 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674809729" for ::1 at 2020-01-10 11:46:49 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674810672" for ::1 at 2020-01-10 11:46:50 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674810673" for ::1 at 2020-01-10 11:46:50 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674813753" for ::1 at 2020-01-10 11:46:53 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674813755" for ::1 at 2020-01-10 11:46:53 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674815269" for ::1 at 2020-01-10 11:46:55 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674815268" for ::1 at 2020-01-10 11:46:55 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674819473" for ::1 at 2020-01-10 11:46:59 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674819475" for ::1 at 2020-01-10 11:46:59 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:46:59 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (2.0ms)
+  Rendered shared/_main_nav.html.erb (4.1ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (4.0ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674820843" for ::1 at 2020-01-10 11:47:00 -0500
+Started GET "/assets/application.self-51bb0ec4795d9ea18e8529105b33ab5207520be896e615bd2a6f86e820f80ed8.css?body=1&livereload=1578674820844" for ::1 at 2020-01-10 11:47:00 -0500
+Started GET "/assets/application.self-057d7d93c6add7ca1a958059b8258ac496eca96ef578858c041d856e90d7e252.css?body=1" for 127.0.0.1 at 2020-01-10 11:47:01 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:47:01 -0500
+Started GET "/" for ::1 at 2020-01-10 11:47:02 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (7.0ms)
+  Rendered shared/_masthead.html.erb (2.2ms)
+  Rendered shared/_sections_nav.html.erb (1.8ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 111ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-518788db69249a3f2695d4c9ab4afd58acca092fa5427019c244360deb42b239.css?body=1" for ::1 at 2020-01-10 11:47:03 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:47:03 -0500
+Started GET "/assets/application.self-518788db69249a3f2695d4c9ab4afd58acca092fa5427019c244360deb42b239.css?body=1&livereload=1578674840031" for ::1 at 2020-01-10 11:47:20 -0500
+Started GET "/assets/application.self-518788db69249a3f2695d4c9ab4afd58acca092fa5427019c244360deb42b239.css?body=1&livereload=1578674840033" for ::1 at 2020-01-10 11:47:20 -0500
+Started GET "/assets/application.self-518788db69249a3f2695d4c9ab4afd58acca092fa5427019c244360deb42b239.css?body=1&livereload=1578674843141" for ::1 at 2020-01-10 11:47:23 -0500
+Started GET "/assets/application.self-518788db69249a3f2695d4c9ab4afd58acca092fa5427019c244360deb42b239.css?body=1&livereload=1578674843142" for ::1 at 2020-01-10 11:47:23 -0500
+Started GET "/" for ::1 at 2020-01-10 11:47:30 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (4.8ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (1.1ms)
+  Rendered shared/_search_modal.html.erb (2.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:47:30 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1" for ::1 at 2020-01-10 11:47:30 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674867252" for ::1 at 2020-01-10 11:47:47 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674867256" for ::1 at 2020-01-10 11:47:47 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674870632" for ::1 at 2020-01-10 11:47:50 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674870633" for ::1 at 2020-01-10 11:47:50 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:47:51 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.6ms)
+  Rendered shared/_main_nav.html.erb (5.1ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (2.1ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 693ms (Views: 680.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3bc85678a47dca214bceb58aa922ae91656eca681959eab92fdffe96cad53e7d.css?body=1" for 127.0.0.1 at 2020-01-10 11:47:52 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:47:52 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674904691" for ::1 at 2020-01-10 11:48:24 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578674904697" for ::1 at 2020-01-10 11:48:24 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:48:31 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (1.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 325ms (Views: 322.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6a5c495b7f4d034bcd397c8c2c452d7ed0b41bf000a63e4eae10e88c41af0608.css?body=1" for 127.0.0.1 at 2020-01-10 11:48:32 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:48:32 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675029616" for ::1 at 2020-01-10 11:50:29 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675029617" for ::1 at 2020-01-10 11:50:29 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675038567" for ::1 at 2020-01-10 11:50:38 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675038569" for ::1 at 2020-01-10 11:50:38 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675039995" for ::1 at 2020-01-10 11:50:40 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675039997" for ::1 at 2020-01-10 11:50:40 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675043262" for ::1 at 2020-01-10 11:50:43 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675043267" for ::1 at 2020-01-10 11:50:43 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675044756" for ::1 at 2020-01-10 11:50:44 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675044758" for ::1 at 2020-01-10 11:50:44 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675046805" for ::1 at 2020-01-10 11:50:46 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675046807" for ::1 at 2020-01-10 11:50:46 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675051920" for ::1 at 2020-01-10 11:50:51 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675051922" for ::1 at 2020-01-10 11:50:51 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675057719" for ::1 at 2020-01-10 11:50:57 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675057721" for ::1 at 2020-01-10 11:50:57 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675058751" for ::1 at 2020-01-10 11:50:58 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675058752" for ::1 at 2020-01-10 11:50:58 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675060059" for ::1 at 2020-01-10 11:51:00 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675060062" for ::1 at 2020-01-10 11:51:00 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675065855" for ::1 at 2020-01-10 11:51:05 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675065861" for ::1 at 2020-01-10 11:51:05 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675076924" for ::1 at 2020-01-10 11:51:16 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675076923" for ::1 at 2020-01-10 11:51:16 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675079807" for ::1 at 2020-01-10 11:51:19 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675079809" for ::1 at 2020-01-10 11:51:19 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675081850&livereload=1578675081850" for ::1 at 2020-01-10 11:51:21 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675081850" for ::1 at 2020-01-10 11:51:21 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675083887&livereload=1578675081850" for ::1 at 2020-01-10 11:51:23 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675083888&livereload=1578675081850" for ::1 at 2020-01-10 11:51:23 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675118135&livereload=1578675081850" for ::1 at 2020-01-10 11:51:58 -0500
+Started GET "/assets/application.self-ff239f8913f2f5b4ac6d0e9348e7b9d3b12b06367dc522299bcaf00df9458a80.css?body=1&livereload=1578675118136&livereload=1578675081850" for ::1 at 2020-01-10 11:51:58 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:51:59 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (8.9ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-10 11:51:59 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (2.8ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.2ms)
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:51:59 -0500
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1" for 127.0.0.1 at 2020-01-10 11:51:59 -0500
+Completed 200 OK in 98ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1" for ::1 at 2020-01-10 11:51:59 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:51:59 -0500
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1&livereload=1578675177991" for ::1 at 2020-01-10 11:52:58 -0500
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1&livereload=1578675177994" for ::1 at 2020-01-10 11:52:58 -0500
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1&livereload=1578675185621" for ::1 at 2020-01-10 11:53:05 -0500
+Started GET "/assets/application.self-f119379b73ed3bf3421406e967534508459353357dcb714c061f488ea0f480ad.css?body=1&livereload=1578675185619" for ::1 at 2020-01-10 11:53:05 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:53:13 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.5ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1" for 127.0.0.1 at 2020-01-10 11:53:14 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:53:14 -0500
+Started GET "/" for ::1 at 2020-01-10 11:53:15 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (1.6ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 70ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1" for ::1 at 2020-01-10 11:53:15 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:53:15 -0500
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1&livereload=1578675223547" for ::1 at 2020-01-10 11:53:43 -0500
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1&livereload=1578675223549" for ::1 at 2020-01-10 11:53:43 -0500
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1&livereload=1578675224848" for ::1 at 2020-01-10 11:53:44 -0500
+Started GET "/assets/application.self-f35af7ed9464b9060f4ae3596d2a5c391c23e358ef051d49bc75da24d331ffaf.css?body=1&livereload=1578675224846" for ::1 at 2020-01-10 11:53:44 -0500
+Started GET "/" for ::1 at 2020-01-10 11:53:47 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (3.2ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (1.0ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after ".": expected class name, was ".editions li":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___711386302380246710_70344633095480'
+
+Started POST "/__better_errors/c4a88cdd83ec114e/variables" for ::1 at 2020-01-10 11:53:48 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:54:09 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (3.4ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (1.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 177ms (Views: 175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:54:10 -0500
+Started GET "/assets/application.self-f179ca606e661e7e19e37f68ed068842fccf192f27ddc829b69c2fc3e9d42c53.css?body=1" for 127.0.0.1 at 2020-01-10 11:54:10 -0500
+Started GET "/" for ::1 at 2020-01-10 11:54:17 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (4.2ms)
+  Rendered shared/_masthead.html.erb (2.6ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f179ca606e661e7e19e37f68ed068842fccf192f27ddc829b69c2fc3e9d42c53.css?body=1" for ::1 at 2020-01-10 11:54:17 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:54:17 -0500
+Started GET "/" for ::1 at 2020-01-10 11:54:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+Started GET "/assets/application.self-f179ca606e661e7e19e37f68ed068842fccf192f27ddc829b69c2fc3e9d42c53.css?body=1&livereload=1578675280387" for ::1 at 2020-01-10 11:54:40 -0500
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+Started GET "/assets/application.self-f179ca606e661e7e19e37f68ed068842fccf192f27ddc829b69c2fc3e9d42c53.css?body=1&livereload=1578675280384" for ::1 at 2020-01-10 11:54:40 -0500
+  Rendered shared/_main_nav.html.erb (8.4ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 895ms (Views: 894.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1" for ::1 at 2020-01-10 11:54:41 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:54:41 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:54:41 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.5ms)
+  Rendered shared/_main_nav.html.erb (8.5ms)
+  Rendered shared/_masthead.html.erb (2.2ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 76ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1" for 127.0.0.1 at 2020-01-10 11:54:42 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:54:42 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675320919" for ::1 at 2020-01-10 11:55:20 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675320921" for ::1 at 2020-01-10 11:55:20 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675334420" for ::1 at 2020-01-10 11:55:34 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675334424" for ::1 at 2020-01-10 11:55:34 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675338404" for ::1 at 2020-01-10 11:55:38 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675338405" for ::1 at 2020-01-10 11:55:38 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675344025" for ::1 at 2020-01-10 11:55:44 -0500
+Started GET "/assets/application.self-39d4024a9704ab97ab58ef7bb84b10a5df6b7b93da8d6378af3ef30d90389253.css?body=1&livereload=1578675344027" for ::1 at 2020-01-10 11:55:44 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:55:45 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (3.1ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (1.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.6ms)
+Started GET "/" for ::1 at 2020-01-10 11:55:45 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (3.0ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (3.0ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 63ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1" for ::1 at 2020-01-10 11:55:45 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:55:45 -0500
+Completed 200 OK in 349ms (Views: 347.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1" for 127.0.0.1 at 2020-01-10 11:55:46 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:55:46 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:55:54 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:55:54 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675375233" for ::1 at 2020-01-10 11:56:15 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675375235" for ::1 at 2020-01-10 11:56:15 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675379630" for ::1 at 2020-01-10 11:56:19 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675379631" for ::1 at 2020-01-10 11:56:19 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675383163" for ::1 at 2020-01-10 11:56:23 -0500
+Started GET "/assets/application.self-5d3595b06d63f3b564c875b308283c362a9e75d3733d4f148c94b4ecf71959f3.css?body=1&livereload=1578675383164" for ::1 at 2020-01-10 11:56:23 -0500
+Started GET "/" for ::1 at 2020-01-10 11:56:24 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.2ms)
+  Rendered shared/_main_nav.html.erb (3.6ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:56:24 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.8ms)
+  Rendered shared/_main_nav.html.erb (2.9ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1fc1515cf768c09a0e7977bc0946792cebaaf805639d5c3cb54dc561be0c4eb7.css?body=1" for ::1 at 2020-01-10 11:56:24 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:56:24 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:56:25 -0500
+Started GET "/assets/application.self-1fc1515cf768c09a0e7977bc0946792cebaaf805639d5c3cb54dc561be0c4eb7.css?body=1" for 127.0.0.1 at 2020-01-10 11:56:25 -0500
+Started GET "/assets/application.self-1fc1515cf768c09a0e7977bc0946792cebaaf805639d5c3cb54dc561be0c4eb7.css?body=1&livereload=1578675395824" for ::1 at 2020-01-10 11:56:35 -0500
+Started GET "/assets/application.self-1fc1515cf768c09a0e7977bc0946792cebaaf805639d5c3cb54dc561be0c4eb7.css?body=1&livereload=1578675395825" for ::1 at 2020-01-10 11:56:35 -0500
+Started GET "/" for ::1 at 2020-01-10 11:56:38 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (1.7ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-59e34d4abd4dbcc4172dc15d7d736f459559164e60d4461a143a18280ad3a8c9.css?body=1" for ::1 at 2020-01-10 11:56:38 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:56:38 -0500
+Started GET "/assets/application.self-59e34d4abd4dbcc4172dc15d7d736f459559164e60d4461a143a18280ad3a8c9.css?body=1&livereload=1578675398932" for ::1 at 2020-01-10 11:56:38 -0500
+Started GET "/assets/application.self-59e34d4abd4dbcc4172dc15d7d736f459559164e60d4461a143a18280ad3a8c9.css?body=1&livereload=1578675398942" for ::1 at 2020-01-10 11:56:38 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:56:39 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (1.6ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (2.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8681d29c63ed383cde124e364254cc7bc351d5d5ad23a21849bd7c466b27f81a.css?body=1" for 127.0.0.1 at 2020-01-10 11:56:39 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:56:39 -0500
+Started GET "/assets/application.self-59e34d4abd4dbcc4172dc15d7d736f459559164e60d4461a143a18280ad3a8c9.css?body=1&livereload=1578675409479" for ::1 at 2020-01-10 11:56:49 -0500
+Started GET "/assets/application.self-59e34d4abd4dbcc4172dc15d7d736f459559164e60d4461a143a18280ad3a8c9.css?body=1&livereload=1578675409485" for ::1 at 2020-01-10 11:56:49 -0500
+Started GET "/" for ::1 at 2020-01-10 11:56:50 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (2.5ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 84ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-be86a456937665916de02e45291b1ef8cec05dbaad78a9d1499f39902ffa016c.css?body=1" for ::1 at 2020-01-10 11:56:50 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-01-10 11:56:50 -0500
+Started GET "/assets/application.self-be86a456937665916de02e45291b1ef8cec05dbaad78a9d1499f39902ffa016c.css?body=1&livereload=1578675413938" for ::1 at 2020-01-10 11:56:53 -0500
+Started GET "/assets/application.self-be86a456937665916de02e45291b1ef8cec05dbaad78a9d1499f39902ffa016c.css?body=1&livereload=1578675413941" for ::1 at 2020-01-10 11:56:53 -0500
+Started GET "/assets/application.self-be86a456937665916de02e45291b1ef8cec05dbaad78a9d1499f39902ffa016c.css?body=1&livereload=1578675415518" for ::1 at 2020-01-10 11:56:55 -0500
+Started GET "/assets/application.self-be86a456937665916de02e45291b1ef8cec05dbaad78a9d1499f39902ffa016c.css?body=1&livereload=1578675415520" for ::1 at 2020-01-10 11:56:55 -0500
+Started GET "/" for 127.0.0.1 at 2020-01-10 11:56:56 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.7ms)
+  Rendered shared/_main_nav.html.erb (5.9ms)
+  Rendered shared/_masthead.html.erb (2.2ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 146ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-55d08ce1fc501a0ed5a040cbe1b7221c4967b0e2c54e25429d47179ba9f03315.css?body=1" for 127.0.0.1 at 2020-01-10 11:56:57 -0500
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-01-10 11:56:57 -0500

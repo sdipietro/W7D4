@@ -15,14 +15,40 @@
 .editions li:hover {
   background-color: $light-gray;
   text-decoration: none;
+  border-radius: 2px;
+  color: black;
+}
+
+.editions li a:hover {
+  text-decoration: none;
 }
 
 
 .editions li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: $dark-gray;
+  padding-top: 10px;
 }
 
 .editions {
   border-bottom: 1px solid $light-gray;
 }
+
+.dropdown-subtitle {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: $dark-gray;
+  font-weight: bold;
+  padding: 5px;
+  display: block;
+  padding-top: 10px;
+}
+
+.help li {
+  padding: 5px;
+  color: $blue;
+  padding-top: 10px;
+}
+
+
