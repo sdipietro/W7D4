@@ -1,0 +1,126 @@
+article {
+    line-height: 130%;
+}
+
+h1 {
+  font-family: $serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 28px;;
+}
+
+h3 {
+  font-family: $serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.author {
+  color: $gray;
+  padding-top: 10px;
+  padding-bottom: 5px;;
+}
+
+.col-left ul {
+  list-style-type: inherit;
+  margin-left: 15px;
+}
+
+.col-left ul li {
+    padding-top: 10px;
+}
+
+.comment-count {
+    color: $blue;
+    padding-top: 10px;
+    font-family: $sans-serif;
+    display: block;
+}
+
+article hr {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.col-right main {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-right main article {
+  //float: left;
+  flex: 1fr;
+}
+
+.col-right h3.center {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.article-type {
+  text-transform: uppercase;
+}
+
+.col-right ul {
+  list-style-type: inherit;
+  margin-left: 15px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.col-right ul li {
+  padding: 2px 0;
+}
+
+.thumbnail {
+  height: 100px;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}
+
+.container {
+  display: flex;
+}
+
+.container article {
+    width: 50%;
+}
+
+.sign-up-message {
+    color: $gray;
+    font-size: 10px;
+    text-align: center;
+}
+
+.hr-top {
+    margin-top: 20px;
+}
+
+.hr-bottom {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.email-input {
+    flex: 1;
+    border: 1px solid $gray;
+    padding: 0 10px;
+    font-family: $sans-serif;
+    border-right: none;
+}
+
+form button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

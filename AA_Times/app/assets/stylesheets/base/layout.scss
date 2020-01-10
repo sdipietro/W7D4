@@ -19,7 +19,7 @@ button {
 	font-weight: bold;
 	padding: 7px;
 	border-radius: 3px;
-	transition: 1s;
+	transition: 0.5s;
 	font-family: $sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
@@ -28,7 +28,7 @@ button {
 
 button:hover {
 	background-color: $blue;
-	border-color: $dark-blue;
+	border-color: $darkest-blue;
 }
 
 /*
@@ -49,13 +49,14 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+	margin-top: 10px;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
